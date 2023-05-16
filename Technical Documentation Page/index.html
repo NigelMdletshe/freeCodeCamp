@@ -97,7 +97,48 @@
 
       <section class="main-section" id="Oject_Oriented_Programming">
         <head>Oject Oriented Programming</head>
-        <p></p>
+        <p>Java is known as a project oriented programming language</p>
+        <p> this means that it is easy to represent entities as objects by using classes and encapsulation</p>
+        <p>
+          An example of this might be a student to represent a student
+        </p>
+        <pre>
+          <code>
+            public class Sudent{
+
+              /* Student Properties*/
+              private String name;
+              private int age;
+
+              /* Constructor*/
+            public Student(String name, int age){
+              this.name = name;
+              this.age = age;
+            }  
+
+            /*Getter method*/
+            public String getName(){
+              return name;
+            }
+
+            /*Setter method*/
+            public void setName(String name){
+              this.name = name;
+            }
+            }
+          </code>
+        </pre>
+        <p>We use this class by doing the following:</p>
+    <pre>
+      <code>
+        Student student1 = new Student("Jimmy",19);
+        String jimmyName = student1.getName();
+        student.setName("Kevin");
+        String KevinName = student1.getName();
+      </code>
+    </pre>    
+
+    
       </section>
 
     </main>
