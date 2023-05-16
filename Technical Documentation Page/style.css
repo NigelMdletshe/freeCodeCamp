@@ -64,3 +64,16 @@ header{
     font-size:1.8em;
     font-weight: 500;
 }
+
+code {
+    display: block;
+    text-align: left;
+    white-space: pre;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+    background-color: #fff;
+    padding: 0 15px;
+    margin: 10px;
+    border-radius: 5px;
+}
