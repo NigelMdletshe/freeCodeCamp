@@ -77,3 +77,11 @@ code {
     margin: 10px;
     border-radius: 5px;
 }
+
+.image {
+    width: 100%;
+}
+
+footer {
+    padding:30px;
+}
