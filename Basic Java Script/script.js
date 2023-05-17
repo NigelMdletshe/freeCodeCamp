@@ -9,3 +9,7 @@ var myVar;
 myVar = 5;
 var myNum;
 myNum = myVar;
+
+// Declare string Variables
+var myName;
+var myName = "your name";
