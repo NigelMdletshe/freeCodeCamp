@@ -105,3 +105,45 @@ ourArray2.shift();
 ourArray.unshift("Happy");
 
 //After the shift, ourArray would have the value ["J", "cat"]. After the unshift, ourArray would have the value ["Happy", "J", "cat"].
+// Functions
+function functionName() {
+    console.log("Hello World");
+  }
+/*Passing Values to Functions with Arguments
+Parameters are variables that act as placeholders for the values that are to be input to a function when it is called. When a function is defined, it is typically defined along with one or more parameters. The actual values that are input (or "passed") into a function when it is called are known as arguments.
+
+Here is a function with two parameters, param1 and param2:
+*/
+
+function testFun(param1, param2) {
+    console.log(param1, param2);
+  }
+
+testFun("Hello", "World");
+
+//Return a Value from a Function with Return
+//We can pass values into a function with arguments.
+// You can use a return statement to send a value back out of a function.
+
+function plusThree(num) {
+    return num + 3;
+  }
+  
+  const answer = plusThree(5);
+
+  //Global vs. Local Scope in Functions
+  /* It is possible to have both local and global variables with the same name.
+  When you do this, the local variable takes precedence over the global variable.
+  In this example:*/
+  const someVar = "Hat";
+
+function myFun() {
+  const someVar = "Head";
+  return someVar;
+}
+
+//Assignment with a Returned Value
+/* If you'll recall from our discussion about Storing Values with the Assignment Operator, 
+everything to the right of the equal sign is resolved before the value is assigned. 
+This means we can take the return value of a function and assign it to a variable.
+Assume we have defined a function sum which adds two numbers together.*/
