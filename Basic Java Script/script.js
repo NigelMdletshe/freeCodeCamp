@@ -31,3 +31,16 @@ const FAV_PET = "Cats";
 const sampleStr = "Alan said, \"Peter is learning JavaScript\".";
 const doubleQuoteStr = "This is a string"; 
 const singleQuoteStr = 'This is also a string';
+const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"';
+//Find the Length of a String
+console.log("Alan Peter".length);
+//Use Bracket Notation to Find the First Character in a String
+//const firstName = "Charles";
+const firstLetter = firstName[0];
+
+//Use Bracket Notation to Find the Last Character in a String
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
+
+//tore Multiple Values in one Variable using JavaScript Arrays
+const sandwich = ["peanut butter", "jelly", "bread"];
