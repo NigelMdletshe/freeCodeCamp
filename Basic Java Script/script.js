@@ -147,3 +147,23 @@ function myFun() {
 everything to the right of the equal sign is resolved before the value is assigned. 
 This means we can take the return value of a function and assign it to a variable.
 Assume we have defined a function sum which adds two numbers together.*/
+
+//Stand in Line
+/* In Computer Science a queue is an abstract Data Structure where items are kept in order.
+ New items can be added at the
+ back of the queue and old items are taken off from the front of the queue.*/
+
+ /* Write a function nextInLine which takes an array (arr) and a number (item) as arguments.
+
+Add the number to the end of the array, then remove the first element of the array.
+
+The nextInLine function should then return the element that was removed.*/
+
+
+//Stand in Line
+/* In Computer Science a queue is an abstract Data Structure where items are kept in order.
+ New items can be added at the back of the queue and old items are taken off from the front
+  of the queue.
+  
+  */
+
