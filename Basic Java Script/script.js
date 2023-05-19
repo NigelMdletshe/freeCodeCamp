@@ -171,15 +171,12 @@ Add the number to the end of the array, then remove the first element of the arr
 The nextInLine function should then return the element that was removed.
   */
 function nextInLine(arr, item) {
-  arr.push(item); // Add the number to the end of the array
-  return arr.shift(); // Remove and return the first element of the array
+  // Add the number to the end of the array
+  arr.push(item);
+
+  // Remove the first element of the array
+  var removedElement = arr.shift();
+
+  return removedElement;
 }
-
-// Setup
-let testArr = [1, 2, 3, 4, 5];
-
-// Display code
-console.log("Before: " + JSON.stringify(testArr));
-console.log(nextInLine(testArr, 6)); // Output: 1
-console.log("After: " + JSON.stringify(testArr));
 
