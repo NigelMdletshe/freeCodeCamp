@@ -450,3 +450,16 @@ function golfScore(par, strokes) {
 }
 
 golfScore(5, 4);
+
+//Selecting from Many Options with Switch Statements
+/* If you need to match one value against many options, you can use a switch statement. A switch statement compares the value to the case statements which define various possible values. Any valid JavaScript statements can be executed inside a case block and will run from the first matched case value until a break is encountered.
+
+Here is an example of a switch statement:*/
+switch (fruit) {
+  case "apple":
+    console.log("The fruit is an apple");
+    break;
+  case "orange":
+    console.log("The fruit is an orange");
+    break;
+}
