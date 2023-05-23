@@ -445,7 +445,7 @@ function golfScore(par, strokes) {
     return "Double Bogey";
   } else{
 
-  return "Change Me";}
+  return "Go Home!";}
   // Only change code above this line
 }
 
