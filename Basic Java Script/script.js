@@ -507,7 +507,7 @@ switch (num) {
   case value2:
     statement2;
     break;
-...
+
   default:
     defaultStatement;
     break;
